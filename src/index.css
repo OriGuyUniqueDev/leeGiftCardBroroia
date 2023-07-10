@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500;700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  background-image: url("/src/assets/bg.png");
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.first {
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
+.second {
+  opacity: 0;
+
+  animation: fadeIn 0.75s 0.75s forwards;
+}
+.third {
+  opacity: 0;
+  animation: fadeIn 0.75s 1.5s forwards;
+}
+.fourth {
+  opacity: 0;
+  animation: fadeIn 0.75s 2s forwards;
+}
+.fifth {
+  opacity: 0;
+  animation: fadeIn 0.75s 2.5s forwards;
+}
+.sixth {
+  opacity: 0;
+  animation: fadeIn 0.75s 3s forwards;
+}
